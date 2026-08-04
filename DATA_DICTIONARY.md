@@ -25,6 +25,27 @@ This document defines every variable used in the Malaysia Semiconductor Shortage
 ### Known limitations
 - **Section 7 is broader than electronics.** It bundles E&E together with other machinery and transport equipment (e.g. industrial machinery, vehicles). This is a proxy for electronics trade, not an isolated electronics-specific figure. A more granular SITC breakdown (2 or 3-digit) was not found as a clean download on OpenDOSM at time of writing.
 
+## ipi.csv
+
+**Source:** Department of Statistics Malaysia (DOSM), OpenDOSM Data Catalogue
+**URL:** open.dosm.gov.my/data-catalogue (Industrial Production Index, headline)
+**Classification:** PUBLIC
+**Frequency:** Monthly
+**Coverage used:** Jan 2021 – Jun 2026
+**Description:** Malaysia's national headline Industrial Production Index, covering the whole economy (mining, manufacturing, electricity combined) — not broken down by sector. Used in notebook 02 as a baseline to test whether Division 26's volatility is sector-specific or reflects manufacturing-wide behavior.
+
+### Columns
+
+| Column | Type | Description |
+|---|---|---|
+| `series` | string | `abs` (absolute value), `growth_yoy`, or `growth_mom` — filter to `abs` before treating `index` as a raw number, same rule as `ipi_2d.csv` |
+| `date` | date | First day of the reporting month |
+| `index` | float | National production index value, not seasonally adjusted |
+| `index_sa` | float | Same index, seasonally adjusted |
+
+### Known limitations
+- This is an economy-wide aggregate (mining + manufacturing + electricity), broader even than "all manufacturing" — a real difference from `ipi_2d.csv`'s Division 26, which isolates one specific manufacturing sub-sector. Any comparison between the two should account for this scope difference, not just treat them as directly equivalent baselines.
+
 ## ipi_2d.csv
 
 **Source:** Department of Statistics Malaysia (DOSM), OpenDOSM Data Catalogue
