@@ -1,5 +1,7 @@
 # Malaysia Semiconductor Shortage: Trade & Manufacturing Impact (2021–2023)
 
+<img src="./assets/hero.png" width="720" alt="No isolable shortage dip — Section 7 trade roughly doubled through 2021-2026">
+
 ## The Question
 
 How did the 2021–2023 global semiconductor shortage affect Malaysia's electrical & electronics (E&E) export performance, and what does the recovery pattern reveal about supply chain resilience for businesses operating here?
@@ -40,6 +42,15 @@ All three datasets are labeled **PUBLIC** (official government source). Full def
 ## Methodology
 
 Business problem → objectives → data acquisition → cleaning → analysis → visualization → insight → recommendation. Each notebook opens with the question and the answer, then shows the reasoning between them — including hypotheses that didn't hold up, and findings used to stress-test earlier conclusions rather than just add to them.
+
+## Reproducing This Analysis
+
+```bash
+pip install -r requirements.txt
+jupyter notebook notebooks/
+```
+
+All data used is already included in `data/processed/` — notebooks read directly from there, so no external downloads are required to re-run the analysis.
 
 ## Repository Structure
 
