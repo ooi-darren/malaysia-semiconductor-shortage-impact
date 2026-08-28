@@ -2,7 +2,7 @@
 
 <img src="./assets/hero.png" width="720" alt="No isolable shortage dip — Section 7 trade roughly doubled through 2021-2026">
 
-**Part of a [5-case-study portfolio](https://github.com/ooi-darren)** — see the other four.
+**Part of a [6-case-study portfolio](https://github.com/ooi-darren)** — see the other five.
 
 ## The Question
 
@@ -61,16 +61,14 @@ pip install -r requirements.txt
 jupyter notebook notebooks/
 ```
 
-All data used is already included in `data/processed/` — notebooks read directly from there, so no external downloads are required to re-run the analysis.
+All data used is already included in `data/raw/` — notebooks read directly from there, so no external downloads are required to re-run the analysis. Unlike other repos in this portfolio, this case study's data needed no cleaning or compilation before analysis (OpenDOSM's CSVs were already analysis-ready as downloaded), so there is no separate `data/processed/` folder here.
 
 ## Repository Structure
 
 ```
 data/
-├── raw/          # Original files, unmodified, as downloaded from source
-└── processed/    # Cleaned/compiled datasets ready for analysis
+└── raw/          # Original files, unmodified, as downloaded from source — already analysis-ready
 notebooks/        # Analysis notebooks
-references/       # Source PDFs and supporting documents
 DATA_DICTIONARY.md
 ```
 
