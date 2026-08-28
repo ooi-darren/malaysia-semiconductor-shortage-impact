@@ -67,3 +67,9 @@ This document defines every variable used in the Malaysia Semiconductor Shortage
 ### Known limitations
 - This dataset does not include a seasonally-adjusted column (`index_sa`), unlike `iowrt.csv` — only the raw `index`. Seasonal patterns in manufacturing output should be considered when interpreting month-to-month changes.
 - Division 26 is a genuine, specific match to electronics manufacturing (unlike the trade data's Section 7 proxy) — this is the stronger of the two datasets for isolating the semiconductor story specifically.
+## Context / Secondary Sources (Qualitative)
+
+Notebook 01's "Why Is This Happening?" section adds secondary-sourced explanation (industry/institutional reporting) for why Malaysia's E&E sector didn't show an isolable shortage dip — not new PUBLIC data, so kept separate from the tables above.
+
+- Lowy Institute, "Can Malaysia's semiconductor industry stream upwards?" https://www.lowyinstitute.org/the-interpreter/can-malaysia-s-semiconductor-industry-stream-upwards
+- Bank Negara Malaysia, "Malaysia's Position in the Global E&E Value Chain" (Economic Monitor Review 2024, Box 1). https://www.bnm.gov.my/publications/emr2024/box1
