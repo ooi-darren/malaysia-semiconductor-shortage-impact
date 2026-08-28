@@ -2,13 +2,7 @@
 
 <img src="./assets/hero.png" width="720" alt="No isolable shortage dip — Section 7 trade roughly doubled through 2021-2026">
 
-## Explain It Simply
-
-Around 2021, the world ran short of computer chips — the tiny parts inside phones, cars, and almost every electronic device. News headlines said this "chip shortage" hurt factories everywhere. Malaysia makes a lot of the world's chips, so this project asks a simple question: does that shortage actually show up in Malaysia's own trade and factory numbers?
-
-Surprisingly, **no** — not in a way you could point to on a chart and say "there, that's the shortage." Malaysia's electronics exports and factory output were bumpy throughout, but they were bumpy *before* the shortage and *after* it too, and they kept growing bigger overall rather than shrinking. Digging deeper explains why: Malaysia mostly does the "assembly and testing" step of chip-making, not the step that actually ran short — so while other parts of the world struggled to get raw chips, factories everywhere still needed Malaysia to assemble and test whatever chips they *could* get, keeping Malaysia's own numbers busy either way.
-
-The lesson for a business: a global crisis making headlines doesn't automatically mean every country in that supply chain gets hit the same way — where exactly you sit in the chain matters more than the headline. (New to terms like "back-end" or "IPI"? See the [Glossary](#glossary) near the bottom.)
+**Part of a [5-case-study portfolio](https://github.com/ooi-darren)** — see the other four.
 
 ## The Question
 
@@ -24,6 +18,14 @@ How did the 2021–2023 global semiconductor shortage affect Malaysia's electric
 **Why:** Malaysia specializes in chip assembly, testing, and packaging (the "back-end"), not the front-end chip fabrication that actually ran short — demand for that back-end capacity stayed strong throughout as manufacturers everywhere scrambled to get whatever chips they could actually built and shipped. *(Full explanation in Notebook 01's "Why Is This Happening?" section.)*
 
 **2. Division 26's volatility isn't electronics-specific — it's structural to Malaysian manufacturing broadly.** Comparing Division 26 against the national headline Industrial Production Index shows close co-movement across the entire 2021–2026 window: the same seasonal dips (clustering early each calendar year, consistent with widely-documented Chinese New Year production slowdowns across Malaysian industry generally) and the same overall upward trajectory. This strengthens Notebook 01's conclusion — the absence of an isolable shortage effect isn't a limitation of the data, it reflects that electronics manufacturing's volatility is business-as-usual for the sector it belongs to. *([Notebook 02](./notebooks/02-electronics-vs-economywide-manufacturing-volatility.ipynb))*
+
+## Explain It Simply
+
+Around 2021, the world ran short of computer chips — the tiny parts inside phones, cars, and almost every electronic device. News headlines said this "chip shortage" hurt factories everywhere. Malaysia makes a lot of the world's chips, so this project asks a simple question: does that shortage actually show up in Malaysia's own trade and factory numbers?
+
+Surprisingly, **no** — not in a way you could point to on a chart and say "there, that's the shortage." Malaysia's electronics exports and factory output were bumpy throughout, but they were bumpy *before* the shortage and *after* it too, and they kept growing bigger overall rather than shrinking. Digging deeper explains why: Malaysia mostly does the "assembly and testing" step of chip-making, not the step that actually ran short — so while other parts of the world struggled to get raw chips, factories everywhere still needed Malaysia to assemble and test whatever chips they *could* get, keeping Malaysia's own numbers busy either way.
+
+The lesson for a business: a global crisis making headlines doesn't automatically mean every country in that supply chain gets hit the same way — where exactly you sit in the chain matters more than the headline. (New to terms like "back-end" or "IPI"? See the [Glossary](#glossary) near the bottom.)
 
 ## Why This Project
 
