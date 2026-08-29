@@ -32,19 +32,19 @@ This document defines every variable used in the Malaysia Semiconductor Shortage
 **Classification:** PUBLIC
 **Frequency:** Monthly
 **Coverage used:** Jan 2021 – Jun 2026
-**Description:** Malaysia's national headline Industrial Production Index, covering the whole economy (mining, manufacturing, electricity combined) — not broken down by sector. Used in notebook 02 as a baseline to test whether Division 26's volatility is sector-specific or reflects manufacturing-wide behavior.
+**Description:** Malaysia's national headline Industrial Production Index, covering the whole economy (mining, manufacturing, electricity combined), not broken down by sector. Used in notebook 02 as a baseline to test whether Division 26's volatility is sector-specific or reflects manufacturing-wide behavior.
 
 ### Columns
 
 | Column | Type | Description |
 |---|---|---|
-| `series` | string | `abs` (absolute value), `growth_yoy`, or `growth_mom` — filter to `abs` before treating `index` as a raw number, same rule as `ipi_2d.csv` |
+| `series` | string | `abs` (absolute value), `growth_yoy`, or `growth_mom`: filter to `abs` before treating `index` as a raw number, same rule as `ipi_2d.csv` |
 | `date` | date | First day of the reporting month |
 | `index` | float | National production index value, not seasonally adjusted |
 | `index_sa` | float | Same index, seasonally adjusted |
 
 ### Known limitations
-- This is an economy-wide aggregate (mining + manufacturing + electricity), broader even than "all manufacturing" — a real difference from `ipi_2d.csv`'s Division 26, which isolates one specific manufacturing sub-sector. Any comparison between the two should account for this scope difference, not just treat them as directly equivalent baselines.
+- This is an economy-wide aggregate (mining + manufacturing + electricity), broader even than "all manufacturing", a real difference from `ipi_2d.csv`'s Division 26, which isolates one specific manufacturing sub-sector. Any comparison between the two should account for this scope difference, not just treat them as directly equivalent baselines.
 
 ## ipi_2d.csv
 
@@ -59,17 +59,17 @@ This document defines every variable used in the Malaysia Semiconductor Shortage
 
 | Column | Type | Description |
 |---|---|---|
-| `series` | string | `abs` (absolute value), `growth_yoy` (year-on-year % change), or `growth_mom` (month-on-month % change) — filter to `abs` before treating `index` as a raw number, same rule as `iowrt.csv` and `trade_headline.csv` in Project 001 |
+| `series` | string | `abs` (absolute value), `growth_yoy` (year-on-year % change), or `growth_mom` (month-on-month % change): filter to `abs` before treating `index` as a raw number, same rule as `iowrt.csv` and `trade_headline.csv` in Project 001 |
 | `date` | date | First day of the reporting month |
 | `division` | string | 2-digit MSIC division code. Division `26` = Manufacture of computer, electronic and optical products |
 | `index` | float | Production index value (base year varies; not seasonally adjusted) |
 
 ### Known limitations
-- This dataset does not include a seasonally-adjusted column (`index_sa`), unlike `iowrt.csv` — only the raw `index`. Seasonal patterns in manufacturing output should be considered when interpreting month-to-month changes.
-- Division 26 is a genuine, specific match to electronics manufacturing (unlike the trade data's Section 7 proxy) — this is the stronger of the two datasets for isolating the semiconductor story specifically.
+- This dataset does not include a seasonally-adjusted column (`index_sa`), unlike `iowrt.csv`, only the raw `index`. Seasonal patterns in manufacturing output should be considered when interpreting month-to-month changes.
+- Division 26 is a genuine, specific match to electronics manufacturing (unlike the trade data's Section 7 proxy); this is the stronger of the two datasets for isolating the semiconductor story specifically.
 ## Context / Secondary Sources (Qualitative)
 
-Notebook 01's "Why Is This Happening?" section adds secondary-sourced explanation (industry/institutional reporting) for why Malaysia's E&E sector didn't show an isolable shortage dip — not new PUBLIC data, so kept separate from the tables above.
+Notebook 01's "Why Is This Happening?" section adds secondary-sourced explanation (industry/institutional reporting) for why Malaysia's E&E sector didn't show an isolable shortage dip, not new PUBLIC data, so kept separate from the tables above.
 
 - Lowy Institute, "Can Malaysia's semiconductor industry stream upwards?" https://www.lowyinstitute.org/the-interpreter/can-malaysia-s-semiconductor-industry-stream-upwards
 - Bank Negara Malaysia, "Malaysia's Position in the Global E&E Value Chain" (Economic Monitor Review 2024, Box 1). https://www.bnm.gov.my/publications/emr2024/box1
