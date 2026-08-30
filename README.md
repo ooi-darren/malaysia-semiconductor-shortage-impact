@@ -2,7 +2,7 @@
 
 <img src="./assets/hero.png" width="720" alt="No isolable shortage dip; Section 7 trade roughly doubled through 2021-2026">
 
-**Part of a [7-case-study portfolio](https://github.com/ooi-darren)**. See the other six.
+**Part of an [8-case-study portfolio](https://github.com/ooi-darren)**. See the other seven.
 
 ## The Question
 
