@@ -1,5 +1,7 @@
 # Malaysia Semiconductor Shortage: Trade & Manufacturing Impact (2021–2023)
 
+**The global chip shortage made headlines everywhere from 2021–2023 — but it left no visible mark on Malaysia's own trade and manufacturing data.** This project tests that gap between headline and data directly.
+
 <img src="./assets/hero.png" width="720" alt="No isolable shortage dip; Section 7 trade roughly doubled through 2021-2026">
 
 **Part of a [8-case-study portfolio](https://github.com/ooi-darren)**. See the other seven.

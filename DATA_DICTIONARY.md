@@ -73,3 +73,5 @@ Notebook 01's "Why Is This Happening?" section adds secondary-sourced explanatio
 
 - Lowy Institute, "Can Malaysia's semiconductor industry stream upwards?" https://www.lowyinstitute.org/the-interpreter/can-malaysia-s-semiconductor-industry-stream-upwards
 - Bank Negara Malaysia, "Malaysia's Position in the Global E&E Value Chain" (Economic Monitor Review 2024, Box 1). https://www.bnm.gov.my/publications/emr2024/box1
+- MATRADE Annual Report 2022 (E&E exports grew 30% to RM592.96 billion in 2022, 38.3% of total exports). https://www.matrade.gov.my/documents/ebook/ar2022-eng/
+- U.S. Department of Commerce, "Joint Press Release: U.S. Department of Commerce and Malaysian Ministry of International Trade and Industry Sign Memorandum of Cooperation to Strengthen Semiconductor Supply Chain Resiliency and Promote Sustainable Growth" (May 2022). https://www.commerce.gov/news/press-releases/2022/05/joint-press-release-us-department-commerce-and-malaysian-ministry
